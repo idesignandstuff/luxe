@@ -1,0 +1,49 @@
+.primary-btn {
+	width: 187px;
+	height: 46px;
+	border: 1px solid #fff;
+	padding: 0px;
+	background: transparent;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition:         0.07s ease-in;
+  -o-transition:      0.07s ease-in;
+  -ms-transition:     0.07s ease-in;
+  -moz-transition:    0.07s ease-in;
+  -webkit-transition: 0.07s ease-in;
+}
+
+.primary-btn:hover {
+	background-color: #fff;
+	color: #0E1721;
+}
+
+
+.secondary-btn {
+	width: 187px;
+	height: 46px;
+	border: 1px #0E1721;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.secondary-btn:hover {
+	background-color: #0E1721;
+	color: #fff;
+	font-size: 15px;
+}
+
+.nav-btn {
+	position: absolute;
+	top: 490px;
+	left: 70px;
+}
