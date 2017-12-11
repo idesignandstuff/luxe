@@ -180,8 +180,12 @@ body {
   padding: 20px 0px;
 }
 
+.section__panel {
+  padding: 0px;
+}
+
 .section__special {
-  padding: 150px 0px 0px;
+  padding: 150px 0px;
 }
 
 .section__nav-special {
@@ -436,17 +440,16 @@ body {
 }
 
 .text_panel {
-  height: 355px;
-  width: 530px;
+  height: 584px;
+  width: 683px;
   margin: 0;
-  padding: 70px;
+  padding: 120px;
+  background-color: #0E1721;
+  color: #fff;
 }
 
 .panel_box {
-  height: 584px;
-  width: 683px;
-  max-width: 683px;
-  min-width: 390px;
+  width: auto;
 }
 
 /*# sourceMappingURL=app.css.map */
