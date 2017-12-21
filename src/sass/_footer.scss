@@ -1,0 +1,46 @@
+.footer {
+	padding: 70px;
+	background-color: #0E1721;
+}
+
+input[type=text] {
+   width: 170px;
+   background: transparent;
+   height: 30px;
+}
+
+input.search {
+	color: #cbcbcb;
+	border: 1px solid #cbcbcb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	padding: 6px 0;
+	font-size: 12px;
+}
+
+.footer a {
+	color: #cbcbcb;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.footer a:hover{
+	color: #DCC19F;
+}
+
+ .social__media {
+	height: 15px;
+	width: 15px;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+

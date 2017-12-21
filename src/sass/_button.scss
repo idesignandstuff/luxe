@@ -26,7 +26,12 @@
 .secondary-btn {
 	width: 187px;
 	height: 46px;
-	border: 1px #0E1721;
+	border: 1px solid #0E1721;
+	border-radius: 0;
+	padding: 0px;
+	background: transparent;
+	color: #0E1721;
+	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -40,11 +45,16 @@
 .secondary-btn:hover {
 	background-color: #0E1721;
 	color: #fff;
-	font-size: 15px;
 }
 
 .nav-btn {
 	position: absolute;
 	top: 490px;
 	left: 70px;
+}
+
+.btn-center {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
 }

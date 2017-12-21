@@ -1,0 +1,44 @@
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #0E1721;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  width: 187px;
+  height: 46px;
+  border: 1px solid #0E1721;
+  border-radius: 0;
+  padding: 0px;
+  background: transparent;
+  color: #0E1721;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+ background-color: #0E1721;
+ color: #fff;
+}
+
+/* Add a background color and some padding around the form */
+.contact__container {
+    background-color: #fff;
+    padding: 120px;
+    height: 800px;
+}
+
+.email {
+  color: #DCC19F;
+}
